@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Floating Button</title>
+  <style>
+    /* Style for the floating WhatsApp button */
+    .whatsapp-floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366; /* WhatsApp green color */
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 60px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+      cursor: pointer;
+    }
+
+    /* Style for the WhatsApp icon */
+    .whatsapp-floating-button i {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- WhatsApp floating button -->
+  <a class="whatsapp-floating-button" href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER">
+    <i class="fa fa-whatsapp"></i> <!-- You can replace "fa fa-whatsapp" with your own WhatsApp icon -->
+  </a>
+
+  <!-- Font Awesome CDN (you can replace it with your own icon library or image) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
